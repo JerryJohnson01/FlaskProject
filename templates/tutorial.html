@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <h1>Arya's HTML Tutorial</h1>
+    <h2> First, what is HTML?</h2> 
+
+    <img src="{{ url_for('static', filename= 'HTML1.png') }}" 
+         class="HTML1" 
+         >
+
+     <img src="{{ url_for('static', filename= 'HTML1.png') }}" 
+         class="HTML2" 
+         >
+
+   <img src="{{ url_for('static', filename= 'HTML1.png') }}" 
+         class="HTML3" 
+         >
+
+    <h3> ---------------- >     HTML Is the standard language for creating and structuring websites. It's generally front-end coding, and deals with the design aspect of a website rather than the logic and back-end part.
+
+    </h3>
+
+    <h3> ---------------- >    CSS deals with the literal design for elements inputed in HTML (I.E color, positioning, etc). This is still considered front-end code as it's still dealing with the visual aspect of a website. 
+
+    </h3>
+
+    <h2> Now Let's learn about some HTML ELements!</h2> 
+   
+    <img src="{{ url_for('static', filename= 'ELEMENTS.png') }}" 
+         class="ELEMENTS" 
+         >
+
+    <h3>
+    1. '!DOCTYPE html' states that the current document being edited is an HTML document, and ensures that you're within the bounds of modern web standards (preventing 'quirks mode').  
+       </h3>
+
+        <h3> 
+    2. 'head' contains what's called the non-visible "meta information," AKA information about the HTML Document itself (i.e page title, links to CSS, etc)
+        </h3>
+        
+        <h3> 
+    3. 'html' is the root element of the website. Pretty much an organizational feature that encapsulates all the elements of your website. 
+        </h3>
+
+         <h3>
+    4. 'title' is pretty self-explanatory, but more broadly, it represents one of the ways you can format tax on your website.
+        </h3>
+       
+        <h3> 
+    5. 'body' contains everything that is visible on the page. <html> is different because it also contains metadata.
+       </h3>
+
+       <h3> 
+    6. 'h1' represents a way to format text, in this case being a header, and is the biggest version on the scale of headers (h1-h6).
+        </h3>
+
+        <h3> 
+    7. 'p' also represents a way to format text, in this case being basic text AKA a paragraph element. 
+        </h3>
+    
+
+
+</body>
+</html>
